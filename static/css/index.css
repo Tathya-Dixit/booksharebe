@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #c13efe;
+}
+
+nav .header{
+    display: flex;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .searching{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .searching input{
+    width: 20rem;
+    padding: 10px;
+    height: 2.5rem;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid black;
+    border-right: 0px;
+}
+
+nav .searching i{
+    border: 2px solid black;
+    background-color: #f2af68;
+    width: 2.5rem;
+    text-align: center;
+    align-content: center;
+    font-size: 1.4rem;
+    height: 2.5rem;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+nav .deliver{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: baseline;
+}
+
+nav .deliver i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+nav .cart{
+    cursor: pointer;
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+}
+
+nav .cart i{
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+nav .logout{
+    cursor: pointer;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+
+nav .logout i{
+    margin-right: 10px;
+   font-size: 1.5rem;
+}
+
+nav .icon{
+    width: 6%;
+}
+
+nav .navbar_head{
+    width: 94%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+nav .sidebar{
+    background-color: #c13efe;
+}
+
+nav .header .offcanvas-header{
+    align-items: flex-start  !important;
+}
+
+nav .header .offcanvas-header .user {
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+nav .header .offcanvas-header .user h3{
+    margin-top: 20px;
+    color: white;
+}
+
+nav .sidebar ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+nav .sidebar ul li a{
+    margin-left: 10px;
+    color: white !important;
+}
+
+.arrival img{
+    width: 100%;
+}
+
+.arrival .image{
+    margin-top: 6rem;
+}
+
+.arrival .deals{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.arrival .deals .medal h1{
+    border-bottom: 8px solid #c13efe;
+    margin: 0;
+}
+
+.arrival .deals .medal h1 span{
+    color: #c13efe;
+}
+
+.arrival .view:hover{
+    cursor: pointer;
+}
+
+.arrival .view i{
+    color: #c13efe;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.arrival hr{
+    margin: 0;
+}
+
+.arrival .arrival_main{
+    position: relative;
+}
+
+.arrival .circle{
+    background-color: #c13efe;
+    width: 35rem;
+    height: 30rem;
+    position: absolute;
+    bottom: 20rem;
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 50%;
+    right: 75rem;
+}
+
+.arrival .circle .circle1{
+    border: 3px solid #c13efe;
+    width: 38rem;
+    height: 32rem;
+    border-radius: 50%;
+}
+
+.cards .card{
+    position: relative;
+    height: 25rem;
+    border: 1px solid #d8d9d8;
+}
+
+.cards .card:hover{
+    border: 1px solid #c13efe;
+    cursor: pointer;
+}
+
+.cards .card .card_head{
+    text-align: center;
+}
+
+.cards .card .card_head p{
+    position: absolute;
+    font-size: 10px;
+    top: 0;
+    right: 0;
+    background-color: #c13efe;
+    color: white;
+    padding: 5px;
+    border-radius: 0 5px 0 10px;
+}
+
+.cards .card .card_head{
+    background-color: #d8d9d8;
+}
+
+.cards .card .card-body{
+    padding: 10px;
+}
+
+.cards .card img{
+    padding: 1rem;
+    height: 17rem;
+    width: 95%;
+}
+
+.cards .card .card-title{
+    font-size: 15px;
+}
+
+.cards .card .card_middle{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards .card .card_middle del{
+    margin-left: 20px;
+    color: rgb(163, 160, 160);
+}
+
+.cards .card hr{
+    margin: 0;
+}
+
+.cards .card .card_footer p{
+    color: #32eb42;
+    margin-bottom: 0 !important;
+} 
+
+/* .cards .cards_main{
+    position: relative;
+    overflow: hidden;
+}
+
+.card_circle{
+    background-color: #c13efe;
+    border: 2px solid red;
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    border-radius: 50%;
+    top: 35rem;
+    left: 75rem;
+    opacity: 0.5;
+    overflow-x:  hidden !important;
+    z-index: -1;
+} */
+
+/* .cards .card_circle .circle2{
+    border: 3px solid #c13efe;
+    width: 38rem;
+    height: 32rem;
+    border-radius: 50%;
+    overflow: hidden !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
